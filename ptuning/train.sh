@@ -8,8 +8,8 @@ CUDA_VISIBLE_DEVICES=0 python3 main.py \
     --prompt_column content \
     --response_column summary \
     --overwrite_cache \
-    --model_name_or_path THUDM/chatglm-6b \
-    --output_dir output/adgen-chatglm-6b-pt-$PRE_SEQ_LEN-$LR \
+    --model_name_or_path THUDM/chatglm2-6b \
+    --output_dir output/adgen-chatglm2-6b-pt-$PRE_SEQ_LEN-$LR \
     --overwrite_output_dir \
     --max_source_length 64 \
     --max_target_length 64 \
